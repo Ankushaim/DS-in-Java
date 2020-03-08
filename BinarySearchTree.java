@@ -190,11 +190,11 @@ class Bst{
         ob1.insert(60);
         ob1.insert(80);
         ob1.preorderRec(ob1.root);
-        System.out.println("");
+        System.out.println();
         ob1.inorderRec(ob1.root);
-        System.out.println("");
+        System.out.println();
         ob1.postorderRec(ob1.root);
-        System.out.println("");
+        System.out.println();
         System.out.println(ob1.findMin(ob1.root));
         System.out.println(ob1.findMax(ob1.root));
 
