@@ -5,7 +5,7 @@ class Node {
     Node next;
 }
 /**
-* Abdul Bari Data and Algorithm... Here we are not creating root reference  and directly creating first node
+* Abdul Bari Data and Algorithm... Here we are not creating root reference and directly creating first node
 * unlike other implementation.
 * */
 
@@ -39,7 +39,7 @@ public class SingleLinkList {
             System.out.print(r.data+ " ");
             r = r.next;
         }
-        System.out.println("");
+        System.out.println();
     }
 
     void R_display(Node r) {
